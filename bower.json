@@ -1,0 +1,23 @@
+{
+  "name": "SocketConsole",
+  "description": "Send console messages over a Socket.io connection",
+  "version": "0.1.0",
+  "homepage": "http://lgoldstien.github.io/SocketConsole",
+  "license": "MIT",
+  "copyright": "Lawrence Goldstien",
+  "main": "dist/SocketConsole.js",
+  "dependencies": {
+    "socket.io-client": "~1.0.6"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}
