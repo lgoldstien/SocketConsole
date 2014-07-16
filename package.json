@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
+    "express": "^4.6.1",
     "grunt": "~0.4.1",
     "grunt-bytesize": "~0.1.0",
     "grunt-concat-bower": "~0.3.0",
@@ -15,7 +16,8 @@
     "grunt-mocha": "~0.4.1",
     "grunt-notify": "~0.2.13",
     "grunt-shell": "~0.4.0",
-    "load-grunt-config":"~0.4.0",
-    "load-grunt-tasks": "~0.1.0"
+    "load-grunt-config": "~0.4.0",
+    "load-grunt-tasks": "~0.1.0",
+    "socket.io": "^1.0.6"
   }
 }

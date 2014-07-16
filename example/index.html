@@ -4,9 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <title>SocketConsole example</title>
+    <style>
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 8px;
+        }
+    </style>
 </head>
 
 <body>
+
+    <div style="width: 300px; margin: auto;">
+        <button onclick="throw new TypeError('');">TypeError</button>
+        <button onclick="throw new ReferenceError('');">ReferenceError</button>
+        <button onclick="throw new EvalError('');">EvalError</button>
+        <button onclick="throw new SyntaxError('');">SyntaxError</button>
+        <button onclick="throw new RangeError('');">RangeError</button>
+        <button onclick="throw new URIError('');">URIError</button>
+    </div>
     <script src="../bower_components/socket.io-client/socket.io.js"></script>
     <script src="../lib/SocketConsole.js"></script>
 </body>
